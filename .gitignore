@@ -1,0 +1,61 @@
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Test artifacts and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+reports/
+*.xml
+.pytest_report/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+.project
+.classpath
+.settings/
+
+# Environment variables and secrets
+.env
+.env.local
+*.env
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Playwright specific
+**/test-results/
+**/playwright-report/
+**/playwright/.cache/
